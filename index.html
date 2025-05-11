@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risolicios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <section>
+            <div class="logo">
+                <img src="logo/logo-risolicios.png" alt="">
+            </div>
+            <div class="judul">
+                <h1>RISOLICIOS  </h1>
+                <h2>Crispy di luar,  lumer di dalam <span class="anim">!!</span></h2>
+                <h3>Risolicios udah pasti delicioso....</h3>
+                <a href="https://wa.me/6285767462009?text=Halo,%20saya%20tertarik%20dengan%20produk%20Anda ">
+                    <button class="bounce-hover">Pesan sekarang</button>
+                </a>
+            </div>
+        </section>
+        <!-- Deskripsi produk -->
+        <div class="deskripsi">
+            <h1>DESKRIPSI PRODUK</h1>
+            <div class="deskripsi-list">
+                <p>Risolicios adalah risol mayo isi smoked beef, telur, dan saus creamy, dibungkus kulit renyah berkualitas dan digoreng dengan minyak bersih.</p>
+                <p>Kami mengutamakan rasa dan kebersihan dalam setiap sajian.</p>
+            </div> 
+            <div class="deskripsi-image">
+                <img src="images/Delicioso.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <!-- gambar produk-->
+        <div class="produk-list">
+            <div class="row row-atas">
+              <div class="images-box"><img src="images/Delicioso.png" alt=""></div>
+              <div class="middle-text">Buruan Cobain !! <br> Cuma 10k</div>
+              <div class="images-box"><img src="images/Delicioso.png" alt=""></div>
+            </div>
+          
+            <div class="row row-bawah">
+              <div class="images-box"><img src="images/Delicioso.png" alt=""></div>
+              <div class="images-box"><img src="images/Delicioso.png" alt=""></div>
+              <div class="images-box"><img src="images/Delicioso.png" alt=""></div>
+            </div>
+          </div>   
+          <br> <br> 
+          <hr>
+
+        <!-- owner & alamat-->
+
+        <div class="card">
+            <div class="owner">
+                <h1>Pemilik Usaha</h1>
+                <div class="name">
+                    <ul>
+                        <li>Triyono</li>
+                        <li>Risco Alfajar</li>
+                        <li>Rani Wiyana</li>
+                        <li>Rohmatun Hasanah</li>
+                    </ul>
+                    <div class="sosmed">
+                        <ul>
+                            <li><a href="https://www.instagram.com/ris_olicius?igsh=MXNka25ocjBwa2wwaQ=="><img src="icon-sosmed/instagram.png" alt=""></a></li>
+                            <li>
+                             <a href="https://wa.me/6285767462009?text=Halo,%20saya%20tertarik%20dengan%20produk%20Anda">
+                             <img src="icon-sosmed/wa.png" alt=""></a></li>
+                            <li class=""onclick="copyLink()"><img src="icon-sosmed/share.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copy-msg" id="copyMessage">✅ Url berhasil disalin dan siap dibagikan!</div>
+                <br>
+            
+                <div class="open-order">
+                    <ul>
+                        <li>Lakukan pemesanan melalui sistem pre-order.</li>
+                        <li><span style="color:#ff3131;">-></span> instagram @ris_olicius &emsp14; | &emsp14; jam buka</li>
+                        <li><span style="color:#ff3131;">-></span> Selasa 17.00 wib  &emsp14; | &emsp14; open order.</li>
+                        <li><span style="color:#ff3131;">-></span> Rabu & Kamis  &emsp14; | &emsp14; Pengiriman.</li>
+                    </ul>
+    
+                </div>
+            </div> <!--end div owner -->
+
+            <div class="loc">
+                <h1>Alamat</h1>
+                <span>Kampung Baru, Kedaton, Bandar Lampung City, Lampung 35141.</span> <br> <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.3761872616565!2d105.24493749999999!3d-5.359437499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c520ce867673%3A0x3df70b6f1616a7b8!2sKAMPUS%20ITS%20NU%20LAMPUNG%20(Institut%20Teknologi%20dan%20Sains%20Nahdatul%20Ulama)!5e0!3m2!1sen!2sid!4v1746974186920!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div> <!--end div container-->
+
+        <footer>
+            <img src="icon-sosmed/information.png" alt="">
+            <span>Produk ini dalam pengembangan, follow instagram kami untuk mendapatkan informasi terbaru.</span>&emsp14; | &emsp14; @2025 | Risolicios. All rights reserved.</footer>
+    </div>
+
+    <!--javascript-->
+    <script>
+        function copyLink() {
+            const link = "https://google.com"; // Ganti dengan link aslimu
+            navigator.clipboard.writeText(link).then(function() {
+                const msg = document.getElementById("copyMessage");
+                msg.style.display = "block";
+            setTimeout(() => msg.style.display = "none", 3000); // Sembunyikan setelah 3 detik
+          });
+        }
+      </script>
+
+</body>
+</html>
