@@ -216,6 +216,7 @@ body{
       }
 
       .images-box img {
+        display:block;
         width: 120px;
         max-height: auto;
         object-fit: contain;
