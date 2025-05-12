@@ -17,8 +17,7 @@ body{
 
 @media (max-width: 768px) {
     body {
-        font-size: 12px;
-   
+        max-width:100%;
         color: #212529;
         padding:0px 2px ;
   }
