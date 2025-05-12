@@ -330,16 +330,7 @@ body{
     iframe{
         width:100%;
     }
-    /css javascript/
-    .copy-msg {
-        margin-top: 10px;
-        color: green;
-        font-weight: bold;
-        font-size:8px;
-        text-align: center;
-        display: none;
-        letter-spacing: 0.1em;
-      }
+    
 
     footer{
         display: flex;
@@ -664,14 +655,6 @@ body{
     iframe{
         width:100%;
     }
-    /css javascript/
-    .copy-msg {
-        margin-top: 10px;
-        color: green;
-        font-weight: bold;
-        display: none;
-        letter-spacing: 0.1em;
-      }
 
     footer{
         text-align: center;
