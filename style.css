@@ -197,7 +197,6 @@ body{
       justify-content: center;
       align-items: center;
       flex-wrap: wrap; /* Tambahan jika ada banyak gambar */
-      overflow-x: hidden;
     }
     
     .middle-text {
