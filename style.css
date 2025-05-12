@@ -7,7 +7,6 @@ html {
 }
   
 body{
-    max-width:100%;
     font-family: "Raleway", sans-serif;
     font-size: 1 rem; /* 16px */
     color: #495057;
@@ -82,7 +81,7 @@ body{
         color:#ffffff;
         text-decoration: none;
     }
-        /*css animasi*/
+        /css animasi/
 
     @keyframes bounce{
         0%, 100%{
@@ -176,7 +175,7 @@ body{
         margin-top: 1.5rem;
         font-style: italic;
     }
-       /*css list produk */
+    /*css list produk */
     .produk-list {
       text-align: center;
       padding: 40px 0px;
@@ -232,8 +231,10 @@ body{
       transform: scale(1.05);
       opacity: 1;
     }
+ 
     
-       /*owner & location*/
+       
+  /owner & location/
     .card{
         width: 100%;
         padding: 60px 0px; 
@@ -329,7 +330,7 @@ body{
     iframe{
         width:100%;
     }
-    /*css javascript*/
+    /css javascript/
     .copy-msg {
         margin-top: 10px;
         color: green;
@@ -432,7 +433,7 @@ body{
         text-decoration: none;
     }
 
-    /*css animasi*/
+    /css animasi/
 
     @keyframes bounce{
         0%, 100%{
@@ -582,7 +583,7 @@ body{
         opacity:1;
     }
 
-    /*owner & location*/
+    /owner & location/
     .card{
         width: 100%;
         padding: 90px 0px; 
@@ -663,7 +664,7 @@ body{
     iframe{
         width:100%;
     }
-    /*css javascript*/
+    /css javascript/
     .copy-msg {
         margin-top: 10px;
         color: green;
