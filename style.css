@@ -14,6 +14,15 @@ body{
 
 }
 
+  /css javascript/
+    .copy-msg {
+        text-align:center;
+        margin-top: 10px;
+        color: green;
+        font-weight: bold;
+        display: none;
+        letter-spacing: 0.1em;
+      }
 @media (max-width: 768px) {
     body {
         max-width:100%;
@@ -330,7 +339,7 @@ body{
     iframe{
         width:100%;
     }
-    
+ 
 
     footer{
         display: flex;
@@ -655,6 +664,7 @@ body{
     iframe{
         width:100%;
     }
+  
 
     footer{
         text-align: center;
